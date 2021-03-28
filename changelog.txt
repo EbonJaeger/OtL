@@ -10,3 +10,5 @@ Translations
 		Improve otl06
 	pt-BR
 		Remove otl06 (Item was all in English and had not been translated)
+	sv-SE
+		Remove sv-SE entirely. Only a few lines had been translated; not enough to justify it as it's own language (as this also required base game translation)
