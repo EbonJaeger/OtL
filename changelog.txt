@@ -16,4 +16,4 @@ Translations
 002.019
 Translations
 	pl-PL
-		Improve otl06, including adding previously untranslated lines
+		Improve otl06, including adding previously untranslated lines and repairing accent errors
