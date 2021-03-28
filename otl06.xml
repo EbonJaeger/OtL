@@ -33,7 +33,7 @@
 		<reportElement id="caller" texten="An elderly woman called and reported being dizzy." />
 		<reportElement id="broken" texten="The caller has a broken leg so could not get to the doctors on her own." />
 		<reportElement id="ambulance" texten="An ambulance was dispatched, although this was not required." />
-		<reportElement id="ambulance2" texten="An ambulance was dispatched as appropriate." />
+		<reportElement id="ambulance2" texten="An ambulance was correctly dispatched." />
 		<reportElement id="ambulance3" texten="The woman was advised to visit her doctor. An ambulance was not dispatched as appropriate." />
 		<reportElement id="ambulance4" texten="The operator failed to dispatch an ambulance." />
 	</aar>
