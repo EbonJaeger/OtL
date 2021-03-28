@@ -2,3 +2,5 @@
 Translations
 	de-DE
 		Improve otl06
+	en-US
+		Update otl06
