@@ -6,3 +6,5 @@ Translations
 		Update otl06
 	fr-FR
 		Improve otl06
+	pt-BR
+		Remove otl06 (Item was all in English and had not been translated)
