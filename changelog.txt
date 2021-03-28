@@ -1,5 +1,7 @@
 002.018
 Translations
+	cs-CZ
+		Remove otl06 (Item was all in English and had not been translated)
 	de-DE
 		Improve otl06
 	en-US
