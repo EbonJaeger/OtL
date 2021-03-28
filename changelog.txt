@@ -4,3 +4,5 @@ Translations
 		Improve otl06
 	en-US
 		Update otl06
+	fr-FR
+		Improve otl06
