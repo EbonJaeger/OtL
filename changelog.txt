@@ -1,0 +1,4 @@
+002.018
+Translations
+	de-DE
+		Improve otl06
