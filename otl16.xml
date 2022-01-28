@@ -34,7 +34,7 @@
         <DialogOption id="end" texten="..." actionOnEnd="actionHangup" addToAAR="story_1" operator="Caller" />
         <DialogOption id="reminder" texten="Hello? We need help down here!" operator="Caller" />
         <DialogOption id="reminder2" texten="Someone help!" operator="Caller" />
-		<DialogOption id="back" texten="This call is part of OtL. Please visit github.com/SoharicMedia/OtL/issues to report this issue."operator="Operator" />
+        <DialogOption id="back" texten="This call is part of OtL. Please visit github.com/SoharicMedia/OtL/issues to report this issue." operator="Operator" />
       </dialog>
       <aar>
         <reportElement id="story_1" texten="The caller reported explosions at a marathon finish line." />

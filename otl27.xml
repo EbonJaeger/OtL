@@ -71,7 +71,7 @@
         <DialogOption id="49" texten="Sure I can do that, thank you." elementProperties="" actionOnEnd="actionHangup;" addToAAR="hangup" operator="Caller" emotions="" />
         <DialogOption id="reminder" texten="..." elementProperties="" addToAAR="" operator="Caller" emotions="" />
         <DialogOption id="reminder2" texten="..." elementProperties="" addToAAR="" operator="Caller" emotions="" />
-		<DialogOption id="back" texten="This call is part of OtL. Please visit github.com/SoharicMedia/OtL/issues to report this issue."operator="Operator" />
+        <DialogOption id="back" texten="This call is part of OtL. Please visit github.com/SoharicMedia/OtL/issues to report this issue." operator="Operator" />
       </dialog>
       <aar>
         <reportElement id="nonemerg" texten="The caller was a young child who had crashed their model plane. An emergency presence was not required." />

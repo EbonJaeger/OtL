@@ -28,7 +28,7 @@
         <DialogOption id="end" texten="..." elementProperties="" actionOnEnd="actionHangup" addToAAR="" operator="Caller" emotions="" />
         <DialogOption id="reminder" texten="Help me they're dying!" elementProperties="" addToAAR="" operator="Caller" emotions="" />
         <DialogOption id="reminder2" texten="Please help me!" elementProperties="" addToAAR="" operator="Caller" emotions="" />
-		<DialogOption id="back" texten="This call is part of OtL. Please visit github.com/SoharicMedia/OtL/issues to report this issue."operator="Operator" />
+        <DialogOption id="back" texten="This call is part of OtL. Please visit github.com/SoharicMedia/OtL/issues to report this issue." operator="Operator" />
       </dialog>
       <aar>
         <reportElement id="story_1" texten="Ella's parents have been shot during a home invasion." />
