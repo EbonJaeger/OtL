@@ -1,7 +1,7 @@
 <data>
   <conversations>
     <conversation id="otl26" texten="Possible Homicide" elementProperties="type=generableonce;">
-      <scene>
+      <scene elementProperties="">
         <witness id="liam" texten="Liam" addToAAR="" blockedBy="george" />
         <injured id="george" texten="George" addToAAR="" blockedBy="" />
         <dead id="father" texten="Father" addToAAR="" blockedBy="liam" />
@@ -24,32 +24,32 @@
         <DialogOption id="14" texten="Liam, you said your Dad has shot himself, is that what you said?" elementProperties="option=16;" addToAAR="" operator="Operator" emotions="" />
         <DialogOption id="16" texten="And George won't talk to me." elementProperties="option=17;option=19;option=21;" addToAAR="" operator="Caller" emotions="" />
         <DialogOption id="17" texten="{WHO}Who's George?" elementProperties="option=18;" addToAAR="" operator="Operator" emotions="" />
-        <DialogOption id="18" texten="My brother." elementProperties="option=19;option=21;option=23;" addToAAR="" operator="Caller" emotions="" />
         <DialogOption id="19" texten="{AGE}How old is George, Liam?" elementProperties="option=20;" addToAAR="" operator="Operator" emotions="" />
         <DialogOption id="21" texten="{STATUS}Okay, Liam. Is George awake or asleep?" elementProperties="option=22;" addToAAR="" operator="Operator" emotions="" />
+        <DialogOption id="18" texten="My brother." elementProperties="option=19;option=21;option=23;" addToAAR="" operator="Caller" emotions="" />
+        <DialogOption id="23" texten="{OTHER PEOPLE?}Liam, are there any adults in the house?" elementProperties="option=24;" addToAAR="" operator="Operator" emotions="" />
         <DialogOption id="20" texten="Six." elementProperties="option=17;option=21;option=23;" addToAAR="" operator="Caller" emotions="" />
         <DialogOption id="22" texten="He's awake." elementProperties="option=17;option=19;option=23;" addToAAR="" operator="Caller" emotions="" />
-        <DialogOption id="23" texten="{OTHER PEOPLE?}Liam, are there any adults in the house?" elementProperties="option=24;" addToAAR="" operator="Operator" emotions="" />
         <DialogOption id="24" texten="I have to go now." elementProperties="option=25;" addToAAR="" operator="Caller" emotions="" />
         <DialogOption id="25" texten="Okay, Liam, I need you to stay on the line and tell me if you know the address of where you are?" elementProperties="option=26;" addToAAR="" operator="Operator" emotions="" />
-        <DialogOption id="26" texten="Umm... [[ADDRESS]]." elementProperties="option=27;" addToAAR="" operator="Caller" emotions="" actionOnEnd="actionSetLocation;" />
+        <DialogOption id="26" texten="Umm... [[ADDRESS]]." elementProperties="option=27;" actionOnEnd="actionSetLocation;" addToAAR="" operator="Caller" emotions="" />
         <DialogOption id="27" texten="{CHECK GEORGE}Good boy, Liam. Now I need you to stay on the line but check also to see if your brother is okay. Can you walk over there and see if he is bleeding anywhere?" elementProperties="option=28;" addToAAR="" operator="Operator" emotions="" />
         <DialogOption id="28" texten="Okay." elementProperties="option=29;" addToAAR="" operator="Caller" emotions="" />
-        <DialogOption id="29" texten="Delta Charlie 46, you should have location of possible homicide through your channel now. . . . . . . . . Control urges extreme caution on arrival, ambulance services are en route. Over." elementProperties="option=30;" addToAAR="" operator="DC46" emotions="" />
+        <DialogOption id="29" texten="Delta Charlie 46, you should have location of possible homicide through your channel now. . . . . . . . . Control urges extreme caution on arrival, ambulance services are en route. Over." elementProperties="option=30;" addToAAR="" operator="Caller" emotions="" />
         <DialogOption id="30" texten="Copy that control. We are in the area and in bound. Over." elementProperties="option=31;" addToAAR="" operator="Caller" emotions="" />
         <DialogOption id="31" texten="Hello?" elementProperties="option=32;option=34;" addToAAR="" operator="Caller" emotions="" />
         <DialogOption id="32" texten="{HELLO}Hello, Liam?" elementProperties="option=33;option=37;" addToAAR="" operator="Operator" emotions="" />
-        <DialogOption id="33" texten="Hello." elementProperties="chance=0.9;option=34;" addToAAR="" operator="Caller" emotions="" />
         <DialogOption id="34" texten="{GEORGE?}Is George okay?" elementProperties="option=35;" addToAAR="" operator="Operator" emotions="" />
-        <DialogOption id="35" texten="..." elementProperties="option=36;option=38" addToAAR="" operator="Caller" emotions="" />
-        <DialogOption id="36" texten="{NOISE?}What's that noise, Liam? What's going on now?" elementProperties="option=37;option=39;" addToAAR="" operator="Operator" emotions="" />
+        <DialogOption id="33" texten="Hello." elementProperties="chance=0.9;option=34;" addToAAR="" operator="Caller" emotions="" />
         <DialogOption id="37" texten="..." elementProperties="chance=0.9;option=38;" addToAAR="" operator="Caller" emotions="" />
+        <DialogOption id="35" texten="..." elementProperties="option=36;option=38;" addToAAR="" operator="Caller" emotions="" />
+        <DialogOption id="36" texten="{NOISE?}What's that noise, Liam? What's going on now?" elementProperties="option=37;option=39;" addToAAR="" operator="Operator" emotions="" />
         <DialogOption id="38" texten="{LIAM?}. . . Liam?" elementProperties="option=39;" addToAAR="" operator="Operator" emotions="" />
         <DialogOption id="39" texten=". . . I have to go now . . ." elementProperties="option=40;" addToAAR="" operator="Caller" emotions="" />
-        <DialogOption id="40" texten=". . . . . . . Liam?" elementProperties="" addToAAR="" operator="Operator" emotions="" actionOnEnd="actionHangup;" />
+        <DialogOption id="40" texten=". . . . . . . Liam?" elementProperties="" actionOnEnd="actionHangup;" addToAAR="" operator="Operator" emotions="" />
         <DialogOption id="reminder" texten="Hello?" elementProperties="" addToAAR="" operator="Caller" emotions="" />
         <DialogOption id="reminder2" texten="..." elementProperties="" addToAAR="" operator="Caller" emotions="" />
-        <DialogOption id="back" texten="This call is part of OtL. Please visit github.com/SoharicMedia/OtL/issues to report this issue." operator="Operator" />
+        <DialogOption id="back" texten="This call is part of OtL. Please visit github.com/SoharicMedia/OtL/issues to report this issue." elementProperties="" addToAAR="" operator="Operator" emotions="" />
       </dialog>
       <aar />
     </conversation>
